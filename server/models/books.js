@@ -8,8 +8,8 @@ let Book = mongoose.Schema({
     Author: String,
     Genre: String
 },
-{
-  collection: "books"
-});
+    {
+        collection: "books"
+    });
 
 module.exports = mongoose.model('Book', Book);
