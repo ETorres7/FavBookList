@@ -98,7 +98,7 @@ router.post('/details/:id', (req, res, next) => {
         else {
             res.redirect('/books');
         }
-     /* ADD CODE HERE */
+     /* ADDED CODE HERE */
 });
 
 });
@@ -114,7 +114,7 @@ router.get('/delete/:id', (req, res, next) => {
         else {
             res.redirect('/books');
         }
-     /* ADD CODE HERE */
+     /* ADDED CODE HERE */
 });
 })
 
