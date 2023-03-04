@@ -1,3 +1,12 @@
+/* --------------------------------------------
+  Midterm Exam Cloud Database
+  File: books.js
+  Description: routes file / CRUD operations
+
+  Author: Erick Torres Penaloza
+  StudentID: 301250235
+  Date: 03/03/2023 
+  -------------------------------------------*/
 // modules required for routing
 let express = require('express');
 let router = express.Router();
@@ -37,7 +46,6 @@ router.get('/details', (req, res, next) => {
       });
     }
   });
-          /***ADDED CODE***/
 });
 
 

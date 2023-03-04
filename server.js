@@ -1,3 +1,12 @@
+/* --------------------------------------------
+  Midterm Exam Cloud Database
+  File: server.js
+  Description: main file to run the app
+
+  Author: Erick Torres Penaloza
+  StudentID: 301250235
+  Date: 03/03/2023 
+  -------------------------------------------*/
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');

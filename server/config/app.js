@@ -1,3 +1,12 @@
+/* --------------------------------------------
+  Midterm Exam Cloud Database
+  File: app.js
+  Description: web app manifest
+
+  Author: Erick Torres Penaloza
+  StudentID: 301250235
+  Date: 03/03/2023 
+  -------------------------------------------*/
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');

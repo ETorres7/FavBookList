@@ -1,3 +1,12 @@
+/* --------------------------------------------
+  Midterm Exam Cloud Database
+  File: index.js
+  Description: Index main webpage routes
+
+  Author: Erick Torres Penaloza
+  StudentID: 301250235
+  Date: 03/03/2023 
+  -------------------------------------------*/
 // modules required for routing
 let express = require('express');
 let router = express.Router();
