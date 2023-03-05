@@ -36,7 +36,7 @@
                 <% for (let count = 0; count < books.length; count++) { %>
                 <tr>
                   <td><%= books[count].Title %></td>
-                  <td class="text-center col-2">$<%= books[count].Price %></td>
+                  <td class="text-center col-2">$ <%= books[count].Price %></td>
                   <td class="text-center col-2"><%= books[count].Author %></td>
                   <td class="text-center col-2"><%= books[count].Genre %></td>
                           
@@ -48,7 +48,7 @@
 
                   <td class="text-center col-1">
                     <a href="/books/delete/<%=books[count]._id%>" class="btn btn-danger"><i class="fa fa-times" aria-hidden="true"></i> Delete</a>
-                    <!-- ADD the DELETE BUTTON HERE -->
+                    <!-- ADDED the DELETE BUTTON HERE -->
                   </td>
                 </tr>
                 <% } %>
